@@ -38,4 +38,12 @@ public class BE111CaseStructureRecordBean {
 	public void setBe111DiscountSectionBean(BE111DiscountSectionBean be111DiscountSectionBean) {
 		this.be111DiscountSectionBean = be111DiscountSectionBean;
 	}
+	
+	@Override
+	public String toString() {
+		return "BE111CaseStructureRecordBean [be111HeaderSectionBean=" + be111HeaderSectionBean
+				+ ", be111CustomerSectionBean=" + be111CustomerSectionBean + ", be111AddressSectionBean="
+				+ be111AddressSectionBean + ", be111PolicySectionBean=" + be111PolicySectionBean
+				+ ", be111DiscountSectionBean=" + be111DiscountSectionBean + "]";
+	}
 }
